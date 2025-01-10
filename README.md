@@ -1,2 +1,2 @@
 # priv-hacker-rank
-HackerRank solutions
+[HackerRank](https://www.hackerrank.com) solutions
