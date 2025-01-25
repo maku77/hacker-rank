@@ -7,3 +7,11 @@ requires-python = ">=3.12"
 dependencies = [
     "scikit-learn>=1.6.1",
 ]
+
+[tool.ruff]
+select = ["ALL"]
+ignore = [
+    "D",  # docstring がなくても警告しない
+    "T201",  # print() を許可
+    "ERA001",  # コメントアウトされたコードを許可
+]

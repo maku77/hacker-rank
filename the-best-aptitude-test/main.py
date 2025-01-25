@@ -7,7 +7,7 @@ def cc(x: list[float], y: list[float]) -> float:
     n = len(x)
     sum_x, sum_y = sum(x), sum(y)
     sum_x_sq, sum_y_sq = sum([i**2 for i in x]), sum([i**2 for i in y])
-    sum_xy = sum([i * j for i, j in zip(x, y)])
+    sum_xy = sum([i * j for i, j in zip(x, y, strict=True)])
     numerator = n * sum_xy - sum_x * sum_y
     denominator = ((n * sum_x_sq - sum_x**2) * (n * sum_y_sq - sum_y**2)) ** 0.5
     if denominator == 0:
