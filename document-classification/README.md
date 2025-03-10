@@ -10,7 +10,7 @@ curl -o trainingdata.txt https://s3.amazonaws.com/hr-testcases/597/assets/traini
 
 ## Run the code
 
-```
-uv run main.py < input.txt
-uv run main.py < input2.txt
+```console
+$ python main.py < input.txt
+$ python main.py < input2.txt
 ```

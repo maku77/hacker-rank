@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/the-best-aptitude-test/problem?isFullScree
 ## Run the code
 
 ```bash
-uv run main.py < input.txt
+python main.py < input.txt
 ```
 
 ## Solution / Ideas

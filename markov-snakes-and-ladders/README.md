@@ -10,7 +10,7 @@ https://www.hackerrank.com/challenges/markov-snakes-and-ladders/problem?isFullSc
 完全にシミュレーションするだけのコードになっているので、結果は毎回微妙に異なる。
 
 ```console
-$ uv run main.py < input.txt
+$ python main.py < input.txt
 160
 95
 162
