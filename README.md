@@ -5,6 +5,7 @@
 
 ```console
 $ python -m venv venv
-$ source venv/bin/activate
+$ source venv/bin/activate  # Linux or macOS
+$ .\venv\Scripts\activate   # Windows (command prompt)
 $ pip install -r requirements.txt
 ```
